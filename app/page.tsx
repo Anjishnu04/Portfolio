@@ -139,10 +139,6 @@ export default function Portfolio() {
                 </span>
               ))}
             </div>
-            <a href="#" className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-transform hover:-translate-y-0.5"
-              style={{ background: "#c8f060", color: "#080808", textDecoration: "none" }}>
-              Download CV →
-            </a>
           </div>
         </div>
       </section>
