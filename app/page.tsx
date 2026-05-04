@@ -83,7 +83,7 @@ export default function Portfolio() {
               <motion.div variants={fadeUp} initial="hidden" animate="show" custom={4}
                 className="flex gap-10 mt-12 pt-8"
                 style={{ borderTop: "0.5px solid rgba(255,255,255,0.06)" }}>
-                {[["4+", "Years exp."], ["10+", "Projects"], ["5+", "Clients"]].map(([n, l]) => (
+                {[["4+", "Years exp."], ["10+", "Projects"], ["50+", "Clients"]].map(([n, l]) => (
                   <div key={l}>
                     <div style={{ fontFamily: "var(--font-syne, sans-serif)", fontWeight: 800, fontSize: "1.75rem", color: "#eeeae3", lineHeight: 1 }}>{n}</div>
                     <div style={{ fontSize: "11px", color: "#777470", marginTop: "4px", letterSpacing: "0.05em" }}>{l}</div>
