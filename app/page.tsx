@@ -108,7 +108,7 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div className="relative">
             <Image
-              src="https://i.ibb.co/MkvwVdyk/Anjishnu04.jpg"
+              src="https://i.ibb.co/M5RJscbH/Anjishnu.png"
               alt="Portrait"
               width={500}
               height={667}
