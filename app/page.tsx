@@ -111,7 +111,7 @@ export default function Portfolio() {
               src="https://i.ibb.co/M5RJscbH/Anjishnu.png"
               alt="Portrait"
               width={500}
-              height={667}
+              height={665}
               className="w-full object-cover"
               style={{ borderRadius: "16px", border: "0.5px solid rgba(255,255,255,0.11)", filter: "grayscale(15%)", aspectRatio: "3/4" }}
             />
