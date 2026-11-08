@@ -22,6 +22,12 @@ export default function RootLayout({
       suppressHydrationWarning
       className={cn("antialiased", fontMono.variable, "font-sans", geist.variable)}
     >
+      <head>
+        <meta
+          name="google-site-verification"
+          content="E8wQJr11I0J4_dlEZrbJOffYfA2uYWvhLt3ATgZYJCA"
+        />
+      </head>
       <body>
         <ThemeProvider>{children}</ThemeProvider>
       </body>
