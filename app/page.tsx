@@ -20,7 +20,7 @@ export default function Portfolio() {
       <nav className="sticky top-0 z-50 flex items-center justify-between px-10 py-4 border-b"
         style={{ background: "rgba(10,10,10,0.82)", backdropFilter: "blur(20px)", borderColor: "rgba(255,255,255,0.06)" }}>
         <span style={{ fontFamily: "var(--font-syne, sans-serif)", fontWeight: 800, fontSize: "1.1rem", letterSpacing: "-0.03em" }}>
-          anjishnu<span style={{ color: "#c8f060" }}>.</span>portolio
+          anjishnu<span style={{ color: "#c8f060" }}>.</span>portfolio
         </span>
         <ul className="hidden md:flex gap-8 list-none">
           {["About", "Skills", "Projects", "Contact"].map((s) => (
@@ -201,10 +201,10 @@ export default function Portfolio() {
               { img: "https://i.ibb.co/W4sQks0T/Posterix.png", github: "https://github.com/Anjishnu04/posterix", tags: ["React", "Vite"], name: "Posterix", desc: "Modern e-commerce store for premium posters and custom prints. Full shopping cart, category filtering, price range slider, auth with Firebase, and newsletter signup." },
               { img: "https://i.ibb.co/4hRNhdC/Finio.png", github: "https://github.com/Anjishnu04/Finio-ExpenseTracker", live: "https://finio-expense-tracker.vercel.app/", tags: ["React", "JS", "Vite"], name: "Finio", desc: "Lightweight expense tracker with a dark-themed dashboard, budget management, visual analytics charts, and client-side LocalStorage — no backend needed." },
               { img: "https://i.ibb.co/KxzrV1g4/Localkart.png", github: "https://github.com/Anjishnu04/LocalKart", tags: ["React", "JS", "Vite"], name: "LocalKart", desc: "E-commerce platform built for small shopkeepers to list and sell their products online for free. A social impact project aimed at helping local businesses grow." },
-              { img: "https://i.ibb.co/8LRBzDpN/My-Portfolio.png", github: "https://github.com/Anjishnu04/My-Portfolio", tags: ["React5", "TS"], name: "Portfolio", desc:"Personal developer portfolio showcasing all projects with a modern, responsive design built in HTML." },
+              { img: "https://i.ibb.co/8LRBzDpN/My-Portfolio.png", github: "https://github.com/Anjishnu04/My-Portfolio", tags: ["React", "TS"], name: "Portfolio", desc:"Personal developer portfolio showcasing all projects with a modern, responsive design built in HTML." },
               { img: "https://i.ibb.co/0jn3jTgk/Calculator.png", github: "https://github.com/Anjishnu04/Calculator", live: "https://calculator-30.vercel.app/", tags: ["HTML", "JS"], name: "Calculator", desc:"A clean, functional calculator built with vanilla HTML, CSS, and JavaScript — a foundational project demonstrating DOM manipulation and event handling."},
-              { img: "https://i.ibb.co/Bv3g6vb/Screenshot-2026-04-04-193848.png", github: "https://github.com/Anjishnu04/To-Do-List", live: "https://to-do-list-everyday.vercel.app/", tags: ["React", "TS", "nextjs", "talwindcss"], name: "To-Do List", desc:"A simple, interactive to-do list app with task creation, completion toggling, and deletion — built with Next.js, React, TypeScript, and Tailwind CSS, featuring clean task management with filtering, progress stats, and an intuitive UI." },
-              { img: "https://i.ibb.co/6cVJwwz6/Screenshot-2026-04-04-190312.png", github: "https://github.com/Anjishnu04/sparkle", live: "https://sparkle-lilac.vercel.app/", tags: ["React", "TS", "nextjs", "talwindcss", "SaaS"], name: "Sparkle", desc:"Playful geometric SaaS landing page built with Next.js 14 + Tailwind CSS - Memphis-inspired hard shadows, candy buttons & confetti shape"},
+              { img: "https://i.ibb.co/Bv3g6vb/Screenshot-2026-04-04-193848.png", github: "https://github.com/Anjishnu04/To-Do-List", live: "https://to-do-list-everyday.vercel.app/", tags: ["React", "TS", "nextjs", "tailwindcss"], name: "To-Do List", desc:"A simple, interactive to-do list app with task creation, completion toggling, and deletion — built with Next.js, React, TypeScript, and Tailwind CSS, featuring clean task management with filtering, progress stats, and an intuitive UI." },
+              { img: "https://i.ibb.co/6cVJwwz6/Screenshot-2026-04-04-190312.png", github: "https://github.com/Anjishnu04/sparkle", live: "https://sparkle-lilac.vercel.app/", tags: ["React", "TS", "nextjs", "tailwindcss", "SaaS"], name: "Sparkle", desc:"Playful geometric SaaS landing page built with Next.js 14 + Tailwind CSS - Memphis-inspired hard shadows, candy buttons & confetti shape"},
               { img: "https://i.ibb.co/4Zd3nzg7/Phish-Guard-Ai.png", github: "https://github.com/Anjishnu04/PhishGuard-Ai", live: "https://phish-guard-ai-io.vercel.app/", tags: ["React", "Vite", "AI", "node.js", "Python", "JS"], name: "PhishGuard AI", desc: "AI-powered phishing detection web app built with React frontend, Node.js backend, and Python ML model. Users can input URLs to get real-time safety analysis using a custom-trained model." },
             ].map((p) => (
               <motion.div key={p.name} whileHover={{ y: -4, borderColor: "rgba(200,240,96,0.25)" }}
@@ -250,7 +250,7 @@ export default function Portfolio() {
           <p className="mb-8" style={{ color: "#777470", fontSize: "0.95rem" }}>
             Open to full-time roles, freelance, and interesting collaborations. Drop me a line.
           </p>
-          <a href="mailto:hello@example.com"
+          <a href="mailto:anjishnusarkar30@icloud.com"
             style={{ fontFamily: "var(--font-syne, sans-serif)", fontWeight: 600, fontSize: "1.05rem", color: "#c8f060", textDecoration: "none", borderBottom: "1px solid rgba(200,240,96,0.3)", paddingBottom: "2px" }}>
             anjishnusarkar30@icloud.com
           </a>
@@ -258,7 +258,7 @@ export default function Portfolio() {
             {[
               { icon: <ExternalLink size={14} />, label: "GitHub", href: "https://github.com/Anjishnu04" },
               { icon: <ExternalLink size={14} />, label: "LinkedIn", href: "https://www.linkedin.com/in/anjishnu-sarkar-37161a393" },
-              { icon: <ExternalLink size={14} />, label: "Instagram", href: "https://www.instagram.com/04.anjishnu.08/" },
+              { icon: <ExternalLink size={14} />, label: "Instagram", href: "https://www.instagram.com/gtg.anjishnu/" },
             ].map(({ icon, label, href }) => (
               <a key={label} href={href} target="_blank" rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-medium border transition-colors hover:bg-white/5"
